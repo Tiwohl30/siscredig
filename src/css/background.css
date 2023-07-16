@@ -1,0 +1,5 @@
+.fondo-componente {
+    background-image: url("../img/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

@@ -1,0 +1,169 @@
+.body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.elemento {
+    display: inline;
+}
+
+.separador {
+    margin: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.separator{
+    margin: 150px;
+}
+
+.menu-item {
+    /* establece el ancho de la tarjeta */
+    /* establece la altura de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    padding: 1.5rem 3rem;
+    border-radius: 0.5rem;
+   background-color: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.menu-item button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 0.50rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.menu-item button Link {
+    text-decoration: none;
+    color: black;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 60px;
+}
+
+.footer {
+    box-sizing: none;
+    width: 100%;
+    background-color: #060a0f;
+    padding: 30px 0px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.copy {
+    padding: 10px 0px;
+    background-color: #fefefe;
+    text-align: left;
+}
+
+.copy p,
+.copy a {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(241, 234, 234);
+}
+
+.copy a {
+    opacity: .5;
+    color: #f9f9f9;
+}
+
+.copy a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+    .menu {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .menu-item {
+        padding: 1.5rem 2rem;
+    }
+}
+
+button {
+    background-color: #5b0b53;
+    border: 10px #af4ca5;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.styl{
+    background-color: #5b0b53;
+}
